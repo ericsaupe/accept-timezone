@@ -16,7 +16,7 @@ function save_options() {
 // Restores select box and checkbox state using the preferences
 // stored in chrome.storage.
 function restore_options() {
-  // Use default value color = 'Etc/UTC'
+  // Use default value timezone = 'Etc/UTC'
   chrome.storage.sync.get({
     timezone: 'Etc/UTC'
   }, function(items) {
