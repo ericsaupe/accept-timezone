@@ -11,6 +11,12 @@
     "scripts": ["accept-timezone.js"],
     "persistent": true
   },
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
   "permissions": [
     "storage",
     "webRequest",
