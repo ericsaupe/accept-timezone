@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Accept-Timezone",
-  "version": "0.0.1",
+  "version": "0.0.2",
 
   "description": "Adds the Accept-Timezone header to all requests",
 
@@ -12,7 +12,8 @@
     "persistent": true
   },
   "browser_action": {
-    "default_icon": "icon.png"
+    "default_icon": "icon.png",
+    "default_popup": "options.html"
   },
   "icons": {
     "128": "icon.png"
